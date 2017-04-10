@@ -5,32 +5,59 @@ body {
 
 header {
 	background-color: #ebebeb;
+	height: 4em;
+	margin: 0 0 0 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
+
 
 nav {
 	background-color: #ebebeb;
+	height: 4em;
+	margin: 1em 0 1em 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
+
 
 footer {
 	background-color: #ebebeb;
+	height: 4em;
+	margin: 1em 0 1em 0;
+	padding-top: 1em;
+	padding-bottom: 1em;
 }
 
 
 section {
 	background-color: #ebebeb;
 	width: 495px;
+	float: left;
 }
 
 aside {
 	background-color: #ebebeb;
+	float: left;
 }
 
 article {
-	
+	background-color: #777;
 }
 
+#articleText {
+	color: #ebebeb;
+}
+
+article div{
+	background-color: #ebebeb;
+}
+
+#headerSection{
+	color: #ebebeb;
+}
 .clear {
-	
+	clear: both;
 }
 
 p {
