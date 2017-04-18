@@ -1,6 +1,8 @@
 body {
 	background-color: #777;
 	width: 960px;
+	padding-left: 25%;
+	padding-right: 25%;
 }
 
 header {
@@ -34,27 +36,52 @@ section {
 	background-color: #ebebeb;
 	width: 495px;
 	float: left;
+	overflow: overlay;
 }
 
 aside {
 	background-color: #ebebeb;
 	float: left;
+	margin: 0em 0em 0em 1em;
+	width: 449px;
+	height: 272px;
 }
 
 article {
 	background-color: #777;
+	margin: .5em 1em .5em 1em;
+	padding: 0 .5em .5em .5em;
 }
 
 #articleText {
 	color: #ebebeb;
+	margin: .5em 1em .5em 1em;
+	padding-top: 1em;
 }
 
 article div{
+	margin: 1em 1em 1em 1em;
 	background-color: #ebebeb;
+	overflow: overlay;
 }
-
-#headerSection{
+/*
+#headerSection {
 	color: #ebebeb;
+	height: .5em;
+	margin: .5em 1em .5em 1em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+}
+*/
+
+#paragraphSection {
+	color: #ebebeb;
+/*
+	height: 2em;
+	margin: .5em 1em .5em 1em;
+	padding-top: .5em;
+	padding-bottom: .5em;
+*/
 }
 .clear {
 	clear: both;
